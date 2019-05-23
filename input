@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Scanner_test {
-    public static void main(String[] args) {
+public class MyClass {
+    public static void main(String args[]) {
         
         Scanner sc = new Scanner(System.in);
-        int num1, num2;
+        int x1, x2;
+        System.out.println("Enter two numbers:");
+        x1 = sc.nextInt();
+        x2 = sc.nextInt();
         
-        System.out.println("Enter a number:");
-        num1 = sc.nextInt();
-        num2 = sc.nextInt();  //Read a complete line: nextLine()
-        System.out.println(num1);
-        System.out.println(num2);
+        if(x1>x2) System.out.println("x1 is bigger");
+        else System.out.println("x2 is bigger");
         
     }
 }
