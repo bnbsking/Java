@@ -1,5 +1,6 @@
 public class MyClass {
     public static void main(String[] args) {
+        
         String name = "David";
         int age = 42;
         double score = 15.9;
@@ -8,17 +9,10 @@ public class MyClass {
         age++;
         System.out.println(age%10);
         System.out.println( name + "xyz");
+    
     }
 }
 
 //single line comment
 /*multil-line comment*/
 /**Documentation comment*/
-
-import java.util.Scanner;
-public class Myclass2{
-    public static void main(String[] args){
-        Scanner myVar = new Scanner(System.in);
-        System.out.println(myVar.nextLine());
-    }
-}
