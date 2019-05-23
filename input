@@ -8,7 +8,7 @@ public class Scanner_test {
         
         System.out.println("Enter a number:");
         num1 = sc.nextInt();
-        num2 = sc.nextInt();
+        num2 = sc.nextInt();  //Read a complete line: nextLine()
         System.out.println(num1);
         System.out.println(num2);
         
