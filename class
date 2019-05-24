@@ -1,0 +1,30 @@
+class Animal{
+    void bark(){
+        System.out.println("Woof");
+    }
+}
+
+class Vehicle{
+    private String color;
+    public String getColor()
+        {
+            return color;
+        }
+    public void setColor(String c)
+        {
+            this.color = c;
+        }
+}
+
+public class MyClass {
+    public static void main(String args[]) {
+        
+        Animal dog = new Animal();
+        dog.bark();
+        
+        Vehicle v = new Vehicle();
+        v.setColor("Red");
+        System.out.println(v.getColor());
+        
+    }
+}
