@@ -42,7 +42,7 @@ public class MyClass {
         Animal a = new Cat1(); //polymorphism: 1 method with different implementation
         Animal b = new Cat2();
         a.makesound();
-        b.makesound();
+        b.makesound(); 
 
     }
 }
