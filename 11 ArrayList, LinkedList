@@ -1,4 +1,5 @@
 import java.util.ArrayList; //dynamic array
+import java.util.LinkedList; 
 
 public class MyClass {
     public static void main(String args[]) {
@@ -13,5 +14,17 @@ public class MyClass {
         System.out.println("Is there 8 in ArrayList? " + A.contains(8));
         System.out.println("A[3]: " + A.get(3));
         
+        
+        
+        System.out.println();
+        LinkedList<String> B = new LinkedList<String>();
+        
+        for(int j=1;j<=10;j++) B.add("str" + j);
+        B.remove(4);
+        
+        System.out.println("LinkedList: " + B);
+        System.out.println("Size = " + B.size() );
+        System.out.println("Is there 8 in ArrayList? " + B.contains(8));
+        System.out.println("B[3]: " + B.get(3));
     }
 }
