@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class MyClass {
     public static void main(String args[]) {
@@ -16,6 +17,18 @@ public class MyClass {
        
        System.out.println(A.containsKey("Bobo"));
        System.out.println(A.containsValue("Bobo"));
-
+        
+       
+       
+       HashSet<String> B = new HashSet<String>();
+       
+       A.add("A");
+       A.add("B");
+       A.add("C");
+       A.add("D");
+       
+       System.out.println(B);
+       System.out.println(B.size());
+        
     }
 }
