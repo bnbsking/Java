@@ -2,6 +2,7 @@ import java.util.ArrayList; //dynamic array
 import java.util.LinkedList;
 import java.util.Collections;
 import java.lang.Math;
+import java.util.Iterator;
 
 public class MyClass {
     public static void main(String args[]) {
@@ -42,6 +43,20 @@ public class MyClass {
         Collections.reverse(B);
         System.out.println("Reverse ArrayList: " + B);
         Collections.shuffle(B);
-        System.out.println("Shuffle ArrayList: " + B);/**/
+        System.out.println("Shuffle ArrayList: " + B);
+        
+        Iterator<Double> it = B.iterator();
+        it.next();
+        System.out.println(it.next() + " " + it.hasNext());
+        System.out.println(B);
+        it.remove();
+        System.out.println(B);
+        
+        System.out.println();
+        Iterator<Double> it2 = B.iterator();
+        while(it2.hasNext())
+            {
+                System.out.println(it2.next());
+            }
     }
 }
