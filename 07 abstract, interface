@@ -34,7 +34,7 @@ public class MyClass {
         c.makesound();
         
         Dog d = new Dog();
-        d.makesound();
+        d.makesound(); 
         d.eat();
         
     }
