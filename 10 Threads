@@ -19,7 +19,7 @@ public class MyClass {
         obj.start();
         
         Thread t = new Thread(new Loader2());
-        t.start();
+        t.start(); 
         
     }
 }
